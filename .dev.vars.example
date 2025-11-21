@@ -1,0 +1,27 @@
+# Cloudflare Pages Functions - Local Development Environment Variables
+# This file is a template for .dev.vars (used by Wrangler CLI for local development)
+#
+# SETUP:
+# 1. Copy this file to .dev.vars: cp .dev.vars.example .dev.vars
+# 2. Fill in the actual values in .dev.vars
+# 3. .dev.vars is gitignored and should NEVER be committed
+#
+# USAGE:
+# These variables are available in Cloudflare Functions via context.env
+# They are NOT exposed to the frontend React app
+#
+# See: https://developers.cloudflare.com/pages/functions/bindings/#environment-variables
+
+# Pipedrive API Configuration
+PIPEDRIVE_API_URL=https://api.pipedrive.com/v1
+PIPEDRIVE_API_TOKEN=your-pipedrive-api-token-here
+
+# Pipedrive Custom Field Configuration
+# Field: "Wygenerować formularz danych do umowy?"
+# Value: "234" (WYGENEROWANO)
+PIPEDRIVE_CUSTOM_FIELD_KEY=f65fca61a8ac7eef5757b18f3e1a15739901c529
+PIPEDRIVE_CUSTOM_FIELD_VALUE=234
+
+# Feature Flag
+# Set to 'true' to enable PID validation, 'false' to disable
+PIPEDRIVE_ENABLED=false

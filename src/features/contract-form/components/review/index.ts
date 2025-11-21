@@ -1,0 +1,9 @@
+export { AddressReview } from './AddressReview';
+export { AddressReviewSection } from './AddressReviewSection';
+export { BasicsReviewSection } from './BasicsReviewSection';
+export { CompanyReviewSection } from './CompanyReviewSection';
+export { DataRow } from './DataRow';
+export { PEPDeclarationReview } from './PEPDeclarationReview';
+export { PEPReviewSection } from './PEPReviewSection';
+export { PersonalDataReviewSection } from './PersonalDataReviewSection';
+export { ReviewSection } from './ReviewSection';
